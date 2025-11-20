@@ -49,7 +49,7 @@ export default function App() {
       location: "Île-de-France, France",
       linkedin: "https://www.linkedin.com/in/franck-zafack/",
       github: "https://github.com/franckdollar916",
-      cvUrl: "/Franck_NGUIMKEU_CV_DataScientist_2025.pdf",
+      cvUrl: "Franck_NGUIMKEU_CV_DataScientist_2025.pdf",
       availability: "À la recherche d’un stage de 6 mois dès février 2026",
     }),
     []
