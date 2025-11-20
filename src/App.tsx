@@ -26,6 +26,7 @@ import {
   CardTitle,
 } from "./components/ui/card";
 
+
 // —————————————————————————————————————————————
 // PORTFOLIO V5 — Franck NGUIMKEU
 // Brand noir/jaune + Vision + Case Studies
@@ -224,7 +225,6 @@ export default function App() {
     []
   );
 
-  const spring = { type: "spring", stiffness: 260, damping: 24 };
   const fadeUp = {
     hidden: { opacity: 0, y: 24 },
     show: { opacity: 1, y: 0, transition: { duration: 0.55 } },
@@ -489,9 +489,7 @@ export default function App() {
                   </p>
                   <div className="mt-4 flex flex-wrap gap-3">
                     <motion.div
-                      whileHover={{ scale: 1.03 }}
-                      transition={spring}
-                    >
+                      whileHover={{ scale: 1.03 }}>
                       <Button
                         asChild
                         className="rounded-2xl bg-yellow-400 text-black hover:bg-yellow-300"
